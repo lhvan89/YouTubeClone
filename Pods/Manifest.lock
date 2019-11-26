@@ -1,0 +1,31 @@
+PODS:
+  - Kingfisher (5.8.3):
+    - Kingfisher/Core (= 5.8.3)
+  - Kingfisher/Core (5.8.3)
+  - Spring (1.0.6)
+
+DEPENDENCIES:
+  - Kingfisher (~> 5.0)
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift5`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kingfisher
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift5
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 459b979c4335d4178fb05771019f6dda916f6998
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Kingfisher: b7e4cb65ff24c264bd2a1284b75b974d907afd94
+  Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
+
+PODFILE CHECKSUM: 68cb486457810f520952e97faaea7a5f6118e1b1
+
+COCOAPODS: 1.6.2
