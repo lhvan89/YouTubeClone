@@ -7,19 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041769DD2396A5E00093D1F7 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041769DC2396A5E00093D1F7 /* Home.storyboard */; };
+		041769E02396A6270093D1F7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041769DF2396A6270093D1F7 /* HomeViewController.swift */; };
+		041769E12396A7450093D1F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04374491238D6BA6007A8742 /* Main.storyboard */; };
+		041769E22396A7510093D1F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04374496238D6BA8007A8742 /* LaunchScreen.storyboard */; };
+		041769E32396A7B00093D1F7 /* Trending.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041769DA2396A41F0093D1F7 /* Trending.storyboard */; };
+		041769E52396AAFF0093D1F7 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041769E42396AAFF0093D1F7 /* TabbarViewController.swift */; };
 		0437448E238D6BA6007A8742 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437448D238D6BA6007A8742 /* AppDelegate.swift */; };
 		04374490238D6BA6007A8742 /* TrendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437448F238D6BA6007A8742 /* TrendingViewController.swift */; };
-		04374493238D6BA6007A8742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04374491238D6BA6007A8742 /* Main.storyboard */; };
 		04374495238D6BA8007A8742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04374494238D6BA8007A8742 /* Assets.xcassets */; };
-		04374498238D6BA8007A8742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04374496238D6BA8007A8742 /* LaunchScreen.storyboard */; };
 		043744A2238D71F4007A8742 /* TrendingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043744A0238D71F4007A8742 /* TrendingTableViewCell.swift */; };
 		043744A3238D71F4007A8742 /* TrendingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043744A1238D71F4007A8742 /* TrendingTableViewCell.xib */; };
 		043744A7238D7FD1007A8742 /* Trending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043744A6238D7FD1007A8742 /* Trending.swift */; };
 		043744AA238D863F007A8742 /* UIImageView+LoadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043744A9238D863F007A8742 /* UIImageView+LoadImage.swift */; };
+		0491557C2396BE9100107C3D /* Subscriptions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0491557B2396BE9100107C3D /* Subscriptions.storyboard */; };
+		0491557E2396BEB700107C3D /* SubscriptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491557D2396BEB700107C3D /* SubscriptionsViewController.swift */; };
+		049155802396C1B400107C3D /* Inbox.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0491557F2396C1B400107C3D /* Inbox.storyboard */; };
+		049155822396C1E100107C3D /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049155812396C1E100107C3D /* InboxViewController.swift */; };
+		049155842396C25B00107C3D /* Library.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049155832396C25B00107C3D /* Library.storyboard */; };
+		049155862396C32900107C3D /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049155852396C32900107C3D /* LibraryViewController.swift */; };
+		049155892396C66500107C3D /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049155882396C66500107C3D /* HeaderView.xib */; };
+		0491558B2396C68D00107C3D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491558A2396C68D00107C3D /* HeaderView.swift */; };
 		DDEFA3B81AAB3BA7C4001C0E /* Pods_YouTubeClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D45EEA02487B58DA10BA286 /* Pods_YouTubeClone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		041769DA2396A41F0093D1F7 /* Trending.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Trending.storyboard; sourceTree = "<group>"; };
+		041769DC2396A5E00093D1F7 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		041769DF2396A6270093D1F7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		041769E42396AAFF0093D1F7 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
 		0437448A238D6BA6007A8742 /* YouTubeClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0437448D238D6BA6007A8742 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0437448F238D6BA6007A8742 /* TrendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingViewController.swift; sourceTree = "<group>"; };
@@ -31,6 +47,14 @@
 		043744A1238D71F4007A8742 /* TrendingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrendingTableViewCell.xib; sourceTree = "<group>"; };
 		043744A6238D7FD1007A8742 /* Trending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trending.swift; sourceTree = "<group>"; };
 		043744A9238D863F007A8742 /* UIImageView+LoadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+LoadImage.swift"; sourceTree = "<group>"; };
+		0491557B2396BE9100107C3D /* Subscriptions.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Subscriptions.storyboard; sourceTree = "<group>"; };
+		0491557D2396BEB700107C3D /* SubscriptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsViewController.swift; sourceTree = "<group>"; };
+		0491557F2396C1B400107C3D /* Inbox.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Inbox.storyboard; sourceTree = "<group>"; };
+		049155812396C1E100107C3D /* InboxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		049155832396C25B00107C3D /* Library.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Library.storyboard; sourceTree = "<group>"; };
+		049155852396C32900107C3D /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		049155882396C66500107C3D /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		0491558A2396C68D00107C3D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		0E1C2B069658D95B3657C65E /* Pods-YouTubeClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouTubeClone.debug.xcconfig"; path = "Target Support Files/Pods-YouTubeClone/Pods-YouTubeClone.debug.xcconfig"; sourceTree = "<group>"; };
 		2D45EEA02487B58DA10BA286 /* Pods_YouTubeClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YouTubeClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0F29C1003CB4A1D0AB28FB /* Pods-YouTubeClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouTubeClone.release.xcconfig"; path = "Target Support Files/Pods-YouTubeClone/Pods-YouTubeClone.release.xcconfig"; sourceTree = "<group>"; };
@@ -48,6 +72,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		041769D92396A3E90093D1F7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				04374491238D6BA6007A8742 /* Main.storyboard */,
+				041769DC2396A5E00093D1F7 /* Home.storyboard */,
+				041769DA2396A41F0093D1F7 /* Trending.storyboard */,
+				0491557B2396BE9100107C3D /* Subscriptions.storyboard */,
+				0491557F2396C1B400107C3D /* Inbox.storyboard */,
+				049155832396C25B00107C3D /* Library.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		041769DE2396A5FB0093D1F7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0437448F238D6BA6007A8742 /* TrendingViewController.swift */,
+				041769DF2396A6270093D1F7 /* HomeViewController.swift */,
+				041769E42396AAFF0093D1F7 /* TabbarViewController.swift */,
+				0491557D2396BEB700107C3D /* SubscriptionsViewController.swift */,
+				049155812396C1E100107C3D /* InboxViewController.swift */,
+				049155852396C32900107C3D /* LibraryViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		04374481238D6BA6007A8742 = {
 			isa = PBXGroup;
 			children = (
@@ -69,12 +119,13 @@
 		0437448C238D6BA6007A8742 /* YouTubeClone */ = {
 			isa = PBXGroup;
 			children = (
+				049155872396C63E00107C3D /* CustomView */,
+				0437449F238D6C81007A8742 /* CustomCell */,
+				041769DE2396A5FB0093D1F7 /* ViewControllers */,
+				041769D92396A3E90093D1F7 /* Storyboards */,
 				043744A8238D8629007A8742 /* Extensions */,
 				043744A5238D7FBE007A8742 /* Models */,
-				0437449F238D6C81007A8742 /* CustomCell */,
 				0437448D238D6BA6007A8742 /* AppDelegate.swift */,
-				0437448F238D6BA6007A8742 /* TrendingViewController.swift */,
-				04374491238D6BA6007A8742 /* Main.storyboard */,
 				04374494238D6BA8007A8742 /* Assets.xcassets */,
 				04374496238D6BA8007A8742 /* LaunchScreen.storyboard */,
 				04374499238D6BA8007A8742 /* Info.plist */,
@@ -105,6 +156,15 @@
 				043744A9238D863F007A8742 /* UIImageView+LoadImage.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		049155872396C63E00107C3D /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				049155882396C66500107C3D /* HeaderView.xib */,
+				0491558A2396C68D00107C3D /* HeaderView.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 		3C6AC3E7B08F2ABB042E0B74 /* Pods */ = {
@@ -184,10 +244,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041769E32396A7B00093D1F7 /* Trending.storyboard in Resources */,
+				049155892396C66500107C3D /* HeaderView.xib in Resources */,
+				041769E22396A7510093D1F7 /* LaunchScreen.storyboard in Resources */,
+				041769E12396A7450093D1F7 /* Main.storyboard in Resources */,
 				043744A3238D71F4007A8742 /* TrendingTableViewCell.xib in Resources */,
-				04374498238D6BA8007A8742 /* LaunchScreen.storyboard in Resources */,
+				049155842396C25B00107C3D /* Library.storyboard in Resources */,
+				0491557C2396BE9100107C3D /* Subscriptions.storyboard in Resources */,
 				04374495238D6BA8007A8742 /* Assets.xcassets in Resources */,
-				04374493238D6BA6007A8742 /* Main.storyboard in Resources */,
+				041769DD2396A5E00093D1F7 /* Home.storyboard in Resources */,
+				049155802396C1B400107C3D /* Inbox.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,10 +314,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				043744A7238D7FD1007A8742 /* Trending.swift in Sources */,
+				0491557E2396BEB700107C3D /* SubscriptionsViewController.swift in Sources */,
 				04374490238D6BA6007A8742 /* TrendingViewController.swift in Sources */,
+				041769E52396AAFF0093D1F7 /* TabbarViewController.swift in Sources */,
+				049155822396C1E100107C3D /* InboxViewController.swift in Sources */,
 				0437448E238D6BA6007A8742 /* AppDelegate.swift in Sources */,
+				049155862396C32900107C3D /* LibraryViewController.swift in Sources */,
+				0491558B2396C68D00107C3D /* HeaderView.swift in Sources */,
 				043744AA238D863F007A8742 /* UIImageView+LoadImage.swift in Sources */,
 				043744A2238D71F4007A8742 /* TrendingTableViewCell.swift in Sources */,
+				041769E02396A6270093D1F7 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +471,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EWV6ACNJ7K;
 				INFOPLIST_FILE = YouTubeClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -417,7 +491,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EWV6ACNJ7K;
 				INFOPLIST_FILE = YouTubeClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

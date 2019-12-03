@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XtT-lO-01o">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Library View Controller-->
+        <scene sceneID="BVj-GU-kpM">
+            <objects>
+                <viewController id="hjK-BM-2kq" customClass="LibraryViewController" customModule="YouTubeClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xy7-d7-2TX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Ix-FR-S1o" customClass="HeaderView" customModule="YouTubeClone" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="414" height="46"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="MVl-nS-WFf"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4Ix-FR-S1o" firstAttribute="top" secondItem="hd0-xN-0Wo" secondAttribute="top" id="Cbw-BQ-0gn"/>
+                            <constraint firstItem="4Ix-FR-S1o" firstAttribute="leading" secondItem="hd0-xN-0Wo" secondAttribute="leading" id="EpE-lD-41M"/>
+                            <constraint firstItem="4Ix-FR-S1o" firstAttribute="trailing" secondItem="hd0-xN-0Wo" secondAttribute="trailing" id="ru8-b2-1rd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hd0-xN-0Wo"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yRn-4V-YMD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1FO-hM-RRM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="889.85507246376824" y="-1.3392857142857142"/>
+        </scene>
+        <!--Library-->
+        <scene sceneID="utc-Oc-Waf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="XtT-lO-01o" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Library" image="tabbar_library" id="Ddt-U7-zZO"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nas-k4-Lh1">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hjK-BM-2kq" kind="relationship" relationship="rootViewController" id="6HW-nY-jQb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g3A-dq-t18" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-20.289855072463769" y="-1.3392857142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabbar_library" width="23" height="18"/>
+    </resources>
+</document>

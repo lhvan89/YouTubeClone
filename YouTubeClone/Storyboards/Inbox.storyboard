@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MeU-Ae-2jv">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Inbox View Controller-->
+        <scene sceneID="d58-wx-zaA">
+            <objects>
+                <viewController id="Lqf-ZU-XOQ" customClass="InboxViewController" customModule="YouTubeClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TaX-tM-Kfj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="URb-wH-R6T" customClass="HeaderView" customModule="YouTubeClone" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="414" height="46"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="ACA-FT-YIi"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="URb-wH-R6T" firstAttribute="leading" secondItem="V27-PQ-y1N" secondAttribute="leading" id="Fzg-W0-KWB"/>
+                            <constraint firstItem="URb-wH-R6T" firstAttribute="trailing" secondItem="V27-PQ-y1N" secondAttribute="trailing" id="M55-7T-Fpu"/>
+                            <constraint firstItem="URb-wH-R6T" firstAttribute="top" secondItem="V27-PQ-y1N" secondAttribute="top" id="ZSU-fe-U5M"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="V27-PQ-y1N"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ekF-1V-2mk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JKa-PT-CMN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="950.72463768115949" y="-40.178571428571423"/>
+        </scene>
+        <!--Inbox-->
+        <scene sceneID="u4s-lJ-npl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="MeU-Ae-2jv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Inbox" image="tabbar_inbox" id="fKm-Hn-3OU"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OuK-8Z-H7F">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Lqf-ZU-XOQ" kind="relationship" relationship="rootViewController" id="GFP-cf-XQl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tYc-dO-IRq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="40.579710144927539" y="-40.178571428571423"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabbar_inbox" width="19" height="23"/>
+    </resources>
+</document>
